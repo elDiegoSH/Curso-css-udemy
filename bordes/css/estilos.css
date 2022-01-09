@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px 0;
+}
+
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3{
+    text-align: center;
+    font-family: Verdana;
+    padding: 10px 0;
+}
+
+.cta{
+    display: block;
+    width: 150px;
+    text-align: center;
+    background: steelblue;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-family: Verdana;
+
+}
