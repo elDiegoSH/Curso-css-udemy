@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.card {
+    -webkit-box-shadow: 3px 3px 15px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 3px 15px -3px rgba(0,0,0,1);
+    box-shadow: 3px 3px 15px -3px rgba(0,0,0,1);
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.copy {
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.cta {
+    display: block;
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 8px 0;
+    margin-bottom: 15px;
+}
+
+.goku {
+    width: 400px;
+    display: block;
+    margin: 40px auto;
+    filter: drop-shadow(1px 1px 15px gold);
+}
