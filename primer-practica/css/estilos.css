@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    --padding-container: 80px 0;
+    --color-primary: #f77062;
+    --color-secondary: #1b998b;
+    --color-bg: #fafafa;
+    --align-title: center;
+    --box-shadow: 0 0 12px rgba(0, 0, 0, .2)
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: var(--padding-container);
+}
+
+/* HERO SECTION */
+
+.hero {
+    --padding-container:0;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+
+.hero-main {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.hero-img {
+    width: 45%;
+    text-align: center;
+    margin: 0;
+}
+
+.hero-pictre {
+    max-width: 80%;
+}
+
+.hero-textos {
+    width: 45%;
+    color: white;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
+.hero-copy {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
