@@ -54,13 +54,13 @@ body {
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .hero-copy {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 1;
     letter-spacing: 1.5px;
 }
 
@@ -74,7 +74,7 @@ body {
     text-align: var(--align-title);
 }
 
-.about-container {
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,3 +114,88 @@ body {
     background: black;
     cursor: pointer;
 }
+
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    background: var(--color-bg);
+}
+
+.portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40 0;
+    justify-content: space-evenly;
+}
+
+.portfolio-card {
+    width: 27%;
+    background: white; 
+    height: auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.portfolio-picture {
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio-textos {
+    padding: 30px 20px 40px 20px;
+}
+
+.portfolio-title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+.portfolio-parrafo {
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.portfolio-cta {
+    display: block;
+    background: var(--color-secondary);
+    padding: 15px 0;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/* COPY SECTION */
+
+.copy {
+    background: var(--color-primary);
+}
+
+.title--margin {
+    --color-primary: white;
+    margin: 0;
+}
+
+/* GALERIA SECTION */
+.galeria-container {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria-picture {
+    width: 30%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: var(--box-shadow);
+}
+
