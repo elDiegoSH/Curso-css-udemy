@@ -199,3 +199,163 @@ body {
     box-shadow: var(--box-shadow);
 }
 
+.lenguajes {
+    background: var(--color-bg);
+}
+
+.lenguajes-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.lenguaje-pictures {
+    width: 20%;
+    height: 100px;
+}
+
+/* FOOTER SECTION */
+.footer {
+    background: var(--color-primary);
+    color: white;
+    text-align: center;
+}
+
+.footer-container {
+    --color-primary: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-textos {
+    width: 50%;
+}
+
+.footer-icon {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid ;
+    border-radius: 50%;
+}
+
+.footer-icon.fab {
+    line-height: 60px;
+}
+
+.footer-icon:hover {
+    background: white;
+    color: steelblue;
+    cursor: pointer;
+}
+
+.footer-link {
+    display: inline-block;
+    color: white;
+    margin: 0 20px;
+    margin-bottom: 15px;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
+.footer-img {
+    margin: 0;
+    width: 35%;
+}
+
+.footer-picture {
+    width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        --padding-container: 40px 0;
+    }
+
+    .hero-main {
+        justify-content: center;
+    }
+    
+    .hero-img {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .hero-picture {
+        max-width: 85%;
+    }
+
+    .hero-textos {
+        width: 100%;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    /* SECTION ABOUT */
+
+    .about-textos {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        --align-title: center;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    /* SECTION PORTFOLIO */
+
+    .portfolio-card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    /* SECTION GALERIA */
+
+    .galeria-picture {
+        width: 45%;
+    }
+
+    /* SECTION LENGUAJES */
+
+    .lenguajes-container {
+        justify-content: space-between;
+    }
+
+    /* FOOTER */
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-img {
+        order: -1;
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-picture {
+        width: 100%;
+    }
+
+    .footer-textos {
+        width: 100%;
+    }
+
+
+}
