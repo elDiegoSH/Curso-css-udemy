@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+:root {
+    --fondo: linear-gradient(0deg, rgba(8, 174, 234, 0.89) 0%, rgba(42, 245, 154, 0.884) 100%);
+    --fondo1: linear-gradient(0deg, rgba(8, 174, 234, 0.4) 0%, rgba(42, 245, 154, 0.4) 100%);
+    --url-img: url(../images/bg1.jpg);
+    --sombra: 6px, 6px, 10px, rgba(0,0,0,.8);
+    --width: 100%;
+    --radius: 8px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    background-image: var(--fondo1),var(--url-img);
+    background-position: center;
+    background-size: cover;
+}
+
+.form {
+    width: 500px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.534);
+    padding: 30px 20px 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--sombra);
+    text-align: center;
+}
+
+.input {
+    display: block;
+    width: var(--width);
+    padding: 20px 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #08AEEA;
+}
+
+.input, .form-submit {
+    font-family: inherit;
+}
+
+.form-titulo {
+    font-size: 2.5rem;
+    margin-bottom: 40px; 
+}
+
+.form-mensaje {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.form-submit {
+    width: var(--width);
+    font-size: 1.3rem;
+    background: var(--fondo);
+    padding: 10px 0;
+    border-radius: var(--radius);
+    border: #055e7e;
+    cursor: pointer;
+    color: #000;
+}
+
+.input::placeholder {
+    color: black;
+}
